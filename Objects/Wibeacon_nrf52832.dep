@@ -1,0 +1,1201 @@
+Dependencies for Project 'Wibeacon', Target 'nrf52832': (DO NOT MODIFY !)
+F (.\main.c)(0x57BE2E3E)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\SDK\components\softdevice\common\softdevice_handler -I .\SDK\components\softdevice\s132\headers -I .\SDK\components\softdevice\s132\headers\nrf52 -I .\SDK\components\toolchain -I .\SDK\bsp -I .\SDK\external\segger_rtt -I .\SDK\config -I .\SDK\components\ble\common -I .\SDK\components\drivers_nrf\common -I .\SDK\components\drivers_nrf\config -I .\SDK\components\drivers_nrf\delay -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\hal -I .\SDK\components\drivers_nrf\uart -I .\SDK\components\libraries\button -I .\SDK\components\libraries\timer -I .\SDK\components\libraries\uart -I .\SDK\components\libraries\util -I .\SDK\components\drivers_nrf\twi_master -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\ppi -I .\SDK\components\drivers_nrf\timer -I "..\Wibeacon - ADC" -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\clock -I .\SDK\components\ble\ble_services\ble_bas -I .\SDK\components\ble\ble_services\ble_dis -I .\SDK\components\ble\ble_services\ble_hts -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\pstorage -I "..\Wibeacon - RECOVERY"-I "C:\Users\Olivier\Desktop\Wibeacon - RECOVERY\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DNRF52 -DCONFIG_GPIO_AS_PINRESET -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DBD440)
+I (.\SDK\components\ble\common\ble_advdata.h)(0x572D17F3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DBD436)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DBD438)
+I (.\SDK\components\softdevice\s132\headers\ble.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_ranges.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_types.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_gap.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_svc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_l2cap.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_err.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_error.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_gatt.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_gattc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_gatts.h)(0x572D1800)
+I (.\SDK\components\libraries\util\app_util.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\compiler_abstraction.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\system_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_bitfields.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf51_to_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_name_change.h)(0x5708FF4E)
+I (.\SDK\components\libraries\util\nordic_common.h)(0x572D17F8)
+I (.\SDK\components\softdevice\common\softdevice_handler\softdevice_handler.h)(0x572D17FF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DBD438)
+I (.\SDK\components\softdevice\s132\headers\nrf_sdm.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_soc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_error_soc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_error_sdm.h)(0x572D1800)
+I (.\SDK\components\libraries\util\app_error.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DBD436)
+I (.\SDK\components\libraries\util\sdk_errors.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\nrf_log.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55DBD43E)
+I (.\SDK\components\libraries\util\app_error_weak.h)(0x572D17F8)
+I (.\SDK\components\softdevice\common\softdevice_handler\ble_stack_handler_types.h)(0x572D17FF)
+I (.\SDK\components\softdevice\common\softdevice_handler\ant_stack_handler_types.h)(0x572D17FF)
+I (.\SDK\components\softdevice\common\softdevice_handler\app_ram_base.h)(0x572D17FF)
+I (.\SDK\bsp\bsp.h)(0x572D1841)
+I (.\SDK\bsp\boards.h)(0x57A8CE4A)
+I (.\SDK\components\drivers_nrf\hal\nrf_gpio.h)(0x572D17F4)
+I (.\SDK\bsp\pca10040.h)(0x57A8E35D)
+I (.\SDK\components\libraries\button\app_button.h)(0x572D17F6)
+I (.\SDK\components\libraries\timer\app_timer.h)(0x572D17F8)
+I (.\SDK\components\drivers_nrf\hal\nrf_temp.h)(0x572D17F5)
+I (.\SDK\components\ble\ble_services\ble_bas\ble_bas.h)(0x572D17F2)
+I (.\SDK\components\ble\common\ble_srv_common.h)(0x572D17F3)
+I (.\SDK\components\ble\ble_services\ble_dis\ble_dis.h)(0x572D17F2)
+I (.\SDK\components\ble\ble_services\ble_hts\ble_hts.h)(0x572D17F2)
+I (.\SDK\components\ble\common\ble_date_time.h)(0x572D17F3)
+I (ble_ads.h)(0x576AAFA1)
+I (ble_ats.h)(0x57ABA7EB)
+I (.\SDK\components\ble\common\ble_conn_params.h)(0x572D17F3)
+I (.\SDK\components\drivers_nrf\pstorage\pstorage.h)(0x572D17F5)
+I (.\SDK\config\pstorage_platform.h)(0x572D181F)
+I (.\SDK\components\drivers_nrf\clock\nrf_drv_clock.h)(0x572D17F4)
+I (.\SDK\components\libraries\util\nrf_assert.h)(0x572D17F8)
+I (.\SDK\components\drivers_nrf\hal\nrf_clock.h)(0x572D17F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55DBD43E)
+I (.\SDK\config\nrf_drv_config.h)(0x57AB5897)
+I (.\SDK\components\drivers_nrf\config\nrf_drv_config_validation.h)(0x572D17F4)
+I (.\SDK\components\drivers_nrf\common\nrf_drv_common.h)(0x572D17F4)
+I (.\SDK\components\drivers_nrf\gpiote\nrf_drv_gpiote.h)(0x572D17F4)
+I (.\SDK\components\drivers_nrf\hal\nrf_gpiote.h)(0x572D17F4)
+I (accelerometer.h)(0x57ABA9E0)
+I (.\SDK\components\libraries\util\app_util_platform.h)(0x572D17F8)
+I (.\SDK\components\softdevice\s132\headers\nrf_nvic.h)(0x572D1800)
+I (.\SDK\components\libraries\uart\app_uart.h)(0x572D17F8)
+I (.\SDK\components\drivers_nrf\twi_master\nrf_drv_twi.h)(0x572D17F6)
+I (.\SDK\components\drivers_nrf\hal\nrf_twi.h)(0x572D17F5)
+I (.\SDK\components\drivers_nrf\delay\nrf_delay.h)(0x572D17F4)
+I (bma2x2.h)(0x5787DF98)
+I (saadc.h)(0x576C066C)
+I (.\SDK\components\drivers_nrf\ppi\nrf_drv_ppi.h)(0x572D17F5)
+I (.\SDK\components\drivers_nrf\hal\nrf_ppi.h)(0x572D17F4)
+I (.\SDK\components\libraries\util\sdk_resources.h)(0x572D17F8)
+I (.\SDK\components\softdevice\s132\headers\nrf_sd_def.h)(0x572D1800)
+I (.\SDK\components\drivers_nrf\timer\nrf_drv_timer.h)(0x572D17F6)
+I (.\SDK\components\drivers_nrf\hal\nrf_timer.h)(0x572D17F5)
+I (.\SDK\components\drivers_nrf\saadc\nrf_drv_saadc.h)(0x572D17F5)
+I (.\SDK\components\drivers_nrf\hal\nrf_saadc.h)(0x572D17F5)
+I (flash.h)(0x57607689)
+F (.\saadc.c)(0x57AA3A75)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\SDK\components\softdevice\common\softdevice_handler -I .\SDK\components\softdevice\s132\headers -I .\SDK\components\softdevice\s132\headers\nrf52 -I .\SDK\components\toolchain -I .\SDK\bsp -I .\SDK\external\segger_rtt -I .\SDK\config -I .\SDK\components\ble\common -I .\SDK\components\drivers_nrf\common -I .\SDK\components\drivers_nrf\config -I .\SDK\components\drivers_nrf\delay -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\hal -I .\SDK\components\drivers_nrf\uart -I .\SDK\components\libraries\button -I .\SDK\components\libraries\timer -I .\SDK\components\libraries\uart -I .\SDK\components\libraries\util -I .\SDK\components\drivers_nrf\twi_master -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\ppi -I .\SDK\components\drivers_nrf\timer -I "..\Wibeacon - ADC" -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\clock -I .\SDK\components\ble\ble_services\ble_bas -I .\SDK\components\ble\ble_services\ble_dis -I .\SDK\components\ble\ble_services\ble_hts -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\pstorage -I "..\Wibeacon - RECOVERY"-I "C:\Users\Olivier\Desktop\Wibeacon - RECOVERY\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DNRF52 -DCONFIG_GPIO_AS_PINRESET -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0-o .\objects\saadc.o --omf_browse .\objects\saadc.crf --depend .\objects\saadc.d)
+I (saadc.h)(0x576C066C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DBD436)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DBD440)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DBD436)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\system_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_bitfields.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf51_to_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_name_change.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\compiler_abstraction.h)(0x5708FF4E)
+I (.\SDK\components\drivers_nrf\ppi\nrf_drv_ppi.h)(0x572D17F5)
+I (.\SDK\components\libraries\util\sdk_errors.h)(0x572D17F8)
+I (.\SDK\components\softdevice\s132\headers\nrf_error.h)(0x572D1800)
+I (.\SDK\components\drivers_nrf\hal\nrf_ppi.h)(0x572D17F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55DBD43E)
+I (.\SDK\components\libraries\util\sdk_resources.h)(0x572D17F8)
+I (.\SDK\components\softdevice\s132\headers\nrf_sd_def.h)(0x572D1800)
+I (.\SDK\components\drivers_nrf\timer\nrf_drv_timer.h)(0x572D17F6)
+I (.\SDK\components\libraries\util\nordic_common.h)(0x572D17F8)
+I (.\SDK\config\nrf_drv_config.h)(0x57AB5897)
+I (.\SDK\components\drivers_nrf\config\nrf_drv_config_validation.h)(0x572D17F4)
+I (.\SDK\components\drivers_nrf\hal\nrf_timer.h)(0x572D17F5)
+I (.\SDK\components\libraries\util\nrf_assert.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\app_error.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\nrf_log.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55DBD43E)
+I (.\SDK\components\libraries\util\app_util.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\app_error_weak.h)(0x572D17F8)
+I (.\SDK\bsp\boards.h)(0x57A8CE4A)
+I (.\SDK\components\drivers_nrf\hal\nrf_gpio.h)(0x572D17F4)
+I (.\SDK\bsp\pca10040.h)(0x57A8E35D)
+I (.\SDK\components\libraries\uart\app_uart.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\app_util_platform.h)(0x572D17F8)
+I (.\SDK\components\softdevice\s132\headers\nrf_soc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_svc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_error_soc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_nvic.h)(0x572D1800)
+I (.\SDK\components\drivers_nrf\delay\nrf_delay.h)(0x572D17F4)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DBD438)
+I (.\SDK\components\drivers_nrf\saadc\nrf_drv_saadc.h)(0x572D17F5)
+I (.\SDK\components\drivers_nrf\hal\nrf_saadc.h)(0x572D17F5)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x55DBD43E)
+F (.\flash.c)(0x57607693)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\SDK\components\softdevice\common\softdevice_handler -I .\SDK\components\softdevice\s132\headers -I .\SDK\components\softdevice\s132\headers\nrf52 -I .\SDK\components\toolchain -I .\SDK\bsp -I .\SDK\external\segger_rtt -I .\SDK\config -I .\SDK\components\ble\common -I .\SDK\components\drivers_nrf\common -I .\SDK\components\drivers_nrf\config -I .\SDK\components\drivers_nrf\delay -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\hal -I .\SDK\components\drivers_nrf\uart -I .\SDK\components\libraries\button -I .\SDK\components\libraries\timer -I .\SDK\components\libraries\uart -I .\SDK\components\libraries\util -I .\SDK\components\drivers_nrf\twi_master -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\ppi -I .\SDK\components\drivers_nrf\timer -I "..\Wibeacon - ADC" -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\clock -I .\SDK\components\ble\ble_services\ble_bas -I .\SDK\components\ble\ble_services\ble_dis -I .\SDK\components\ble\ble_services\ble_hts -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\pstorage -I "..\Wibeacon - RECOVERY"-I "C:\Users\Olivier\Desktop\Wibeacon - RECOVERY\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DNRF52 -DCONFIG_GPIO_AS_PINRESET -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0-o .\objects\flash.o --omf_browse .\objects\flash.crf --depend .\objects\flash.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DBD436)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DBD436)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DBD440)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\system_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_bitfields.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf51_to_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_name_change.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\compiler_abstraction.h)(0x5708FF4E)
+I (.\SDK\bsp\bsp.h)(0x572D1841)
+I (.\SDK\bsp\boards.h)(0x57A8CE4A)
+I (.\SDK\components\drivers_nrf\hal\nrf_gpio.h)(0x572D17F4)
+I (.\SDK\bsp\pca10040.h)(0x57A8E35D)
+I (.\SDK\components\libraries\button\app_button.h)(0x572D17F6)
+I (.\SDK\components\libraries\util\app_error.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\sdk_errors.h)(0x572D17F8)
+I (.\SDK\components\softdevice\s132\headers\nrf_error.h)(0x572D1800)
+I (.\SDK\components\libraries\util\nordic_common.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\nrf_log.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55DBD43E)
+I (.\SDK\components\libraries\util\app_util.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\app_error_weak.h)(0x572D17F8)
+I (flash.h)(0x57607689)
+F (.\accelerometer.c)(0x57AE1CB2)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\SDK\components\softdevice\common\softdevice_handler -I .\SDK\components\softdevice\s132\headers -I .\SDK\components\softdevice\s132\headers\nrf52 -I .\SDK\components\toolchain -I .\SDK\bsp -I .\SDK\external\segger_rtt -I .\SDK\config -I .\SDK\components\ble\common -I .\SDK\components\drivers_nrf\common -I .\SDK\components\drivers_nrf\config -I .\SDK\components\drivers_nrf\delay -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\hal -I .\SDK\components\drivers_nrf\uart -I .\SDK\components\libraries\button -I .\SDK\components\libraries\timer -I .\SDK\components\libraries\uart -I .\SDK\components\libraries\util -I .\SDK\components\drivers_nrf\twi_master -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\ppi -I .\SDK\components\drivers_nrf\timer -I "..\Wibeacon - ADC" -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\clock -I .\SDK\components\ble\ble_services\ble_bas -I .\SDK\components\ble\ble_services\ble_dis -I .\SDK\components\ble\ble_services\ble_hts -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\pstorage -I "..\Wibeacon - RECOVERY"-I "C:\Users\Olivier\Desktop\Wibeacon - RECOVERY\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DNRF52 -DCONFIG_GPIO_AS_PINRESET -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0-o .\objects\accelerometer.o --omf_browse .\objects\accelerometer.crf --depend .\objects\accelerometer.d)
+I (accelerometer.h)(0x57ABA9E0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DBD436)
+I (.\SDK\bsp\boards.h)(0x57A8CE4A)
+I (.\SDK\components\drivers_nrf\hal\nrf_gpio.h)(0x572D17F4)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DBD440)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\system_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_bitfields.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf51_to_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_name_change.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\compiler_abstraction.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DBD436)
+I (.\SDK\bsp\pca10040.h)(0x57A8E35D)
+I (.\SDK\components\libraries\util\app_util_platform.h)(0x572D17F8)
+I (.\SDK\components\softdevice\s132\headers\nrf_soc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_svc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_error_soc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_error.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_nvic.h)(0x572D1800)
+I (.\SDK\components\libraries\util\nrf_assert.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\app_error.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\sdk_errors.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\nordic_common.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\nrf_log.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55DBD43E)
+I (.\SDK\components\libraries\util\app_util.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\app_error_weak.h)(0x572D17F8)
+I (.\SDK\components\libraries\uart\app_uart.h)(0x572D17F8)
+I (.\SDK\components\drivers_nrf\twi_master\nrf_drv_twi.h)(0x572D17F6)
+I (.\SDK\config\nrf_drv_config.h)(0x57AB5897)
+I (.\SDK\components\drivers_nrf\config\nrf_drv_config_validation.h)(0x572D17F4)
+I (.\SDK\components\drivers_nrf\hal\nrf_twi.h)(0x572D17F5)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55DBD43E)
+I (.\SDK\components\drivers_nrf\delay\nrf_delay.h)(0x572D17F4)
+I (bma2x2.h)(0x5787DF98)
+F (.\SDK\components\ble\common\ble_advdata.c)(0x572D17F3)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\SDK\components\softdevice\common\softdevice_handler -I .\SDK\components\softdevice\s132\headers -I .\SDK\components\softdevice\s132\headers\nrf52 -I .\SDK\components\toolchain -I .\SDK\bsp -I .\SDK\external\segger_rtt -I .\SDK\config -I .\SDK\components\ble\common -I .\SDK\components\drivers_nrf\common -I .\SDK\components\drivers_nrf\config -I .\SDK\components\drivers_nrf\delay -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\hal -I .\SDK\components\drivers_nrf\uart -I .\SDK\components\libraries\button -I .\SDK\components\libraries\timer -I .\SDK\components\libraries\uart -I .\SDK\components\libraries\util -I .\SDK\components\drivers_nrf\twi_master -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\ppi -I .\SDK\components\drivers_nrf\timer -I "..\Wibeacon - ADC" -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\clock -I .\SDK\components\ble\ble_services\ble_bas -I .\SDK\components\ble\ble_services\ble_dis -I .\SDK\components\ble\ble_services\ble_hts -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\pstorage -I "..\Wibeacon - RECOVERY"-I "C:\Users\Olivier\Desktop\Wibeacon - RECOVERY\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DNRF52 -DCONFIG_GPIO_AS_PINRESET -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0-o .\objects\ble_advdata.o --omf_browse .\objects\ble_advdata.crf --depend .\objects\ble_advdata.d)
+I (SDK\components\ble\common\ble_advdata.h)(0x572D17F3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DBD440)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DBD436)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DBD438)
+I (.\SDK\components\softdevice\s132\headers\ble.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_ranges.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_types.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_gap.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_svc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_l2cap.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_err.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_error.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_gatt.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_gattc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_gatts.h)(0x572D1800)
+I (.\SDK\components\libraries\util\app_util.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\compiler_abstraction.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\system_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_bitfields.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf51_to_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_name_change.h)(0x5708FF4E)
+I (SDK\components\ble\common\ble_srv_common.h)(0x572D17F3)
+I (.\SDK\components\libraries\util\sdk_common.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\nordic_common.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\sdk_os.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\sdk_errors.h)(0x572D17F8)
+F (.\SDK\components\ble\common\ble_conn_params.c)(0x572D17F3)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\SDK\components\softdevice\common\softdevice_handler -I .\SDK\components\softdevice\s132\headers -I .\SDK\components\softdevice\s132\headers\nrf52 -I .\SDK\components\toolchain -I .\SDK\bsp -I .\SDK\external\segger_rtt -I .\SDK\config -I .\SDK\components\ble\common -I .\SDK\components\drivers_nrf\common -I .\SDK\components\drivers_nrf\config -I .\SDK\components\drivers_nrf\delay -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\hal -I .\SDK\components\drivers_nrf\uart -I .\SDK\components\libraries\button -I .\SDK\components\libraries\timer -I .\SDK\components\libraries\uart -I .\SDK\components\libraries\util -I .\SDK\components\drivers_nrf\twi_master -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\ppi -I .\SDK\components\drivers_nrf\timer -I "..\Wibeacon - ADC" -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\clock -I .\SDK\components\ble\ble_services\ble_bas -I .\SDK\components\ble\ble_services\ble_dis -I .\SDK\components\ble\ble_services\ble_hts -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\pstorage -I "..\Wibeacon - RECOVERY"-I "C:\Users\Olivier\Desktop\Wibeacon - RECOVERY\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DNRF52 -DCONFIG_GPIO_AS_PINRESET -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0-o .\objects\ble_conn_params.o --omf_browse .\objects\ble_conn_params.crf --depend .\objects\ble_conn_params.d)
+I (SDK\components\ble\common\ble_conn_params.h)(0x572D17F3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DBD440)
+I (.\SDK\components\softdevice\s132\headers\ble.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_ranges.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_types.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_gap.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_svc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_l2cap.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_err.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_error.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_gatt.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_gattc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_gatts.h)(0x572D1800)
+I (SDK\components\ble\common\ble_srv_common.h)(0x572D17F3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DBD436)
+I (.\SDK\components\libraries\util\app_util.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\compiler_abstraction.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\system_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_bitfields.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf51_to_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_name_change.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DBD438)
+I (.\SDK\components\libraries\util\nordic_common.h)(0x572D17F8)
+I (.\SDK\components\softdevice\s132\headers\ble_hci.h)(0x572D1800)
+I (.\SDK\components\libraries\timer\app_timer.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DBD436)
+I (.\SDK\components\libraries\util\app_error.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\sdk_errors.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\nrf_log.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55DBD43E)
+I (.\SDK\components\libraries\util\app_error_weak.h)(0x572D17F8)
+F (.\SDK\components\ble\common\ble_srv_common.c)(0x572D17F3)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\SDK\components\softdevice\common\softdevice_handler -I .\SDK\components\softdevice\s132\headers -I .\SDK\components\softdevice\s132\headers\nrf52 -I .\SDK\components\toolchain -I .\SDK\bsp -I .\SDK\external\segger_rtt -I .\SDK\config -I .\SDK\components\ble\common -I .\SDK\components\drivers_nrf\common -I .\SDK\components\drivers_nrf\config -I .\SDK\components\drivers_nrf\delay -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\hal -I .\SDK\components\drivers_nrf\uart -I .\SDK\components\libraries\button -I .\SDK\components\libraries\timer -I .\SDK\components\libraries\uart -I .\SDK\components\libraries\util -I .\SDK\components\drivers_nrf\twi_master -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\ppi -I .\SDK\components\drivers_nrf\timer -I "..\Wibeacon - ADC" -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\clock -I .\SDK\components\ble\ble_services\ble_bas -I .\SDK\components\ble\ble_services\ble_dis -I .\SDK\components\ble\ble_services\ble_hts -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\pstorage -I "..\Wibeacon - RECOVERY"-I "C:\Users\Olivier\Desktop\Wibeacon - RECOVERY\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DNRF52 -DCONFIG_GPIO_AS_PINRESET -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0-o .\objects\ble_srv_common.o --omf_browse .\objects\ble_srv_common.crf --depend .\objects\ble_srv_common.d)
+I (SDK\components\ble\common\ble_srv_common.h)(0x572D17F3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DBD440)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DBD436)
+I (.\SDK\components\softdevice\s132\headers\ble_types.h)(0x572D1800)
+I (.\SDK\components\libraries\util\app_util.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\compiler_abstraction.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\system_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_bitfields.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf51_to_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_name_change.h)(0x5708FF4E)
+I (.\SDK\components\softdevice\s132\headers\ble.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_ranges.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_gap.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_svc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_l2cap.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_err.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_error.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_gatt.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_gattc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_gatts.h)(0x572D1800)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DBD438)
+I (.\SDK\components\libraries\util\nordic_common.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\app_error.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DBD436)
+I (.\SDK\components\libraries\util\sdk_errors.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\nrf_log.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55DBD43E)
+I (.\SDK\components\libraries\util\app_error_weak.h)(0x572D17F8)
+F (.\SDK\components\ble\ble_services\ble_bas\ble_bas.c)(0x57716060)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\SDK\components\softdevice\common\softdevice_handler -I .\SDK\components\softdevice\s132\headers -I .\SDK\components\softdevice\s132\headers\nrf52 -I .\SDK\components\toolchain -I .\SDK\bsp -I .\SDK\external\segger_rtt -I .\SDK\config -I .\SDK\components\ble\common -I .\SDK\components\drivers_nrf\common -I .\SDK\components\drivers_nrf\config -I .\SDK\components\drivers_nrf\delay -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\hal -I .\SDK\components\drivers_nrf\uart -I .\SDK\components\libraries\button -I .\SDK\components\libraries\timer -I .\SDK\components\libraries\uart -I .\SDK\components\libraries\util -I .\SDK\components\drivers_nrf\twi_master -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\ppi -I .\SDK\components\drivers_nrf\timer -I "..\Wibeacon - ADC" -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\clock -I .\SDK\components\ble\ble_services\ble_bas -I .\SDK\components\ble\ble_services\ble_dis -I .\SDK\components\ble\ble_services\ble_hts -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\pstorage -I "..\Wibeacon - RECOVERY"-I "C:\Users\Olivier\Desktop\Wibeacon - RECOVERY\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DNRF52 -DCONFIG_GPIO_AS_PINRESET -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0-o .\objects\ble_bas.o --omf_browse .\objects\ble_bas.crf --depend .\objects\ble_bas.d)
+I (SDK\components\ble\ble_services\ble_bas\ble_bas.h)(0x572D17F2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DBD440)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DBD436)
+I (.\SDK\components\softdevice\s132\headers\ble.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_ranges.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_types.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_gap.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_svc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_l2cap.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_err.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_error.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_gatt.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_gattc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_gatts.h)(0x572D1800)
+I (.\SDK\components\ble\common\ble_srv_common.h)(0x572D17F3)
+I (.\SDK\components\libraries\util\app_util.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\compiler_abstraction.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\system_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_bitfields.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf51_to_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_name_change.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DBD438)
+I (.\SDK\components\libraries\util\nordic_common.h)(0x572D17F8)
+F (.\SDK\components\ble\ble_services\ble_dis\ble_dis.c)(0x572D17F2)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\SDK\components\softdevice\common\softdevice_handler -I .\SDK\components\softdevice\s132\headers -I .\SDK\components\softdevice\s132\headers\nrf52 -I .\SDK\components\toolchain -I .\SDK\bsp -I .\SDK\external\segger_rtt -I .\SDK\config -I .\SDK\components\ble\common -I .\SDK\components\drivers_nrf\common -I .\SDK\components\drivers_nrf\config -I .\SDK\components\drivers_nrf\delay -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\hal -I .\SDK\components\drivers_nrf\uart -I .\SDK\components\libraries\button -I .\SDK\components\libraries\timer -I .\SDK\components\libraries\uart -I .\SDK\components\libraries\util -I .\SDK\components\drivers_nrf\twi_master -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\ppi -I .\SDK\components\drivers_nrf\timer -I "..\Wibeacon - ADC" -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\clock -I .\SDK\components\ble\ble_services\ble_bas -I .\SDK\components\ble\ble_services\ble_dis -I .\SDK\components\ble\ble_services\ble_hts -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\pstorage -I "..\Wibeacon - RECOVERY"-I "C:\Users\Olivier\Desktop\Wibeacon - RECOVERY\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DNRF52 -DCONFIG_GPIO_AS_PINRESET -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0-o .\objects\ble_dis.o --omf_browse .\objects\ble_dis.crf --depend .\objects\ble_dis.d)
+I (SDK\components\ble\ble_services\ble_dis\ble_dis.h)(0x572D17F2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DBD440)
+I (.\SDK\components\ble\common\ble_srv_common.h)(0x572D17F3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DBD436)
+I (.\SDK\components\softdevice\s132\headers\ble_types.h)(0x572D1800)
+I (.\SDK\components\libraries\util\app_util.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\compiler_abstraction.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\system_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_bitfields.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf51_to_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_name_change.h)(0x5708FF4E)
+I (.\SDK\components\softdevice\s132\headers\ble.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_ranges.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_gap.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_svc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_l2cap.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_err.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_error.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_gatt.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_gattc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_gatts.h)(0x572D1800)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DBD438)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DBD438)
+I (.\SDK\components\libraries\util\app_error.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DBD436)
+I (.\SDK\components\libraries\util\sdk_errors.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\nordic_common.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\nrf_log.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55DBD43E)
+I (.\SDK\components\libraries\util\app_error_weak.h)(0x572D17F8)
+F (.\SDK\components\ble\ble_services\ble_hts\ble_hts.c)(0x572D17F2)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\SDK\components\softdevice\common\softdevice_handler -I .\SDK\components\softdevice\s132\headers -I .\SDK\components\softdevice\s132\headers\nrf52 -I .\SDK\components\toolchain -I .\SDK\bsp -I .\SDK\external\segger_rtt -I .\SDK\config -I .\SDK\components\ble\common -I .\SDK\components\drivers_nrf\common -I .\SDK\components\drivers_nrf\config -I .\SDK\components\drivers_nrf\delay -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\hal -I .\SDK\components\drivers_nrf\uart -I .\SDK\components\libraries\button -I .\SDK\components\libraries\timer -I .\SDK\components\libraries\uart -I .\SDK\components\libraries\util -I .\SDK\components\drivers_nrf\twi_master -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\ppi -I .\SDK\components\drivers_nrf\timer -I "..\Wibeacon - ADC" -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\clock -I .\SDK\components\ble\ble_services\ble_bas -I .\SDK\components\ble\ble_services\ble_dis -I .\SDK\components\ble\ble_services\ble_hts -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\pstorage -I "..\Wibeacon - RECOVERY"-I "C:\Users\Olivier\Desktop\Wibeacon - RECOVERY\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DNRF52 -DCONFIG_GPIO_AS_PINRESET -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0-o .\objects\ble_hts.o --omf_browse .\objects\ble_hts.crf --depend .\objects\ble_hts.d)
+I (SDK\components\ble\ble_services\ble_hts\ble_hts.h)(0x572D17F2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DBD440)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DBD436)
+I (.\SDK\components\softdevice\s132\headers\ble.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_ranges.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_types.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_gap.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_svc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_l2cap.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_err.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_error.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_gatt.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_gattc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_gatts.h)(0x572D1800)
+I (.\SDK\components\ble\common\ble_srv_common.h)(0x572D17F3)
+I (.\SDK\components\libraries\util\app_util.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\compiler_abstraction.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\system_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_bitfields.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf51_to_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_name_change.h)(0x5708FF4E)
+I (.\SDK\components\ble\common\ble_date_time.h)(0x572D17F3)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DBD438)
+I (.\SDK\components\libraries\util\nordic_common.h)(0x572D17F8)
+F (.\ble_ads.c)(0x576AAFAE)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\SDK\components\softdevice\common\softdevice_handler -I .\SDK\components\softdevice\s132\headers -I .\SDK\components\softdevice\s132\headers\nrf52 -I .\SDK\components\toolchain -I .\SDK\bsp -I .\SDK\external\segger_rtt -I .\SDK\config -I .\SDK\components\ble\common -I .\SDK\components\drivers_nrf\common -I .\SDK\components\drivers_nrf\config -I .\SDK\components\drivers_nrf\delay -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\hal -I .\SDK\components\drivers_nrf\uart -I .\SDK\components\libraries\button -I .\SDK\components\libraries\timer -I .\SDK\components\libraries\uart -I .\SDK\components\libraries\util -I .\SDK\components\drivers_nrf\twi_master -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\ppi -I .\SDK\components\drivers_nrf\timer -I "..\Wibeacon - ADC" -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\clock -I .\SDK\components\ble\ble_services\ble_bas -I .\SDK\components\ble\ble_services\ble_dis -I .\SDK\components\ble\ble_services\ble_hts -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\pstorage -I "..\Wibeacon - RECOVERY"-I "C:\Users\Olivier\Desktop\Wibeacon - RECOVERY\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DNRF52 -DCONFIG_GPIO_AS_PINRESET -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0-o .\objects\ble_ads.o --omf_browse .\objects\ble_ads.crf --depend .\objects\ble_ads.d)
+I (ble_ads.h)(0x576AAFA1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DBD440)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DBD436)
+I (.\SDK\components\softdevice\s132\headers\ble.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_ranges.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_types.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_gap.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_svc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_l2cap.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_err.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_error.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_gatt.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_gattc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_gatts.h)(0x572D1800)
+I (.\SDK\components\ble\common\ble_srv_common.h)(0x572D17F3)
+I (.\SDK\components\libraries\util\app_util.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\compiler_abstraction.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\system_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_bitfields.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf51_to_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_name_change.h)(0x5708FF4E)
+I (.\SDK\components\libraries\util\sdk_common.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DBD438)
+I (.\SDK\components\libraries\util\nordic_common.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\sdk_os.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\sdk_errors.h)(0x572D17F8)
+F (.\ble_ats.c)(0x57ABAF93)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\SDK\components\softdevice\common\softdevice_handler -I .\SDK\components\softdevice\s132\headers -I .\SDK\components\softdevice\s132\headers\nrf52 -I .\SDK\components\toolchain -I .\SDK\bsp -I .\SDK\external\segger_rtt -I .\SDK\config -I .\SDK\components\ble\common -I .\SDK\components\drivers_nrf\common -I .\SDK\components\drivers_nrf\config -I .\SDK\components\drivers_nrf\delay -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\hal -I .\SDK\components\drivers_nrf\uart -I .\SDK\components\libraries\button -I .\SDK\components\libraries\timer -I .\SDK\components\libraries\uart -I .\SDK\components\libraries\util -I .\SDK\components\drivers_nrf\twi_master -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\ppi -I .\SDK\components\drivers_nrf\timer -I "..\Wibeacon - ADC" -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\clock -I .\SDK\components\ble\ble_services\ble_bas -I .\SDK\components\ble\ble_services\ble_dis -I .\SDK\components\ble\ble_services\ble_hts -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\pstorage -I "..\Wibeacon - RECOVERY"-I "C:\Users\Olivier\Desktop\Wibeacon - RECOVERY\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DNRF52 -DCONFIG_GPIO_AS_PINRESET -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0-o .\objects\ble_ats.o --omf_browse .\objects\ble_ats.crf --depend .\objects\ble_ats.d)
+I (ble_ats.h)(0x57ABA7EB)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DBD440)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DBD436)
+I (.\SDK\components\softdevice\s132\headers\ble.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_ranges.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_types.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_gap.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_svc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_l2cap.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_err.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_error.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_gatt.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_gattc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_gatts.h)(0x572D1800)
+I (.\SDK\components\ble\common\ble_srv_common.h)(0x572D17F3)
+I (.\SDK\components\libraries\util\app_util.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\compiler_abstraction.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\system_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_bitfields.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf51_to_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_name_change.h)(0x5708FF4E)
+I (.\SDK\components\ble\common\ble_date_time.h)(0x572D17F3)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DBD438)
+I (.\SDK\components\libraries\util\nordic_common.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\sdk_common.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\sdk_os.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\sdk_errors.h)(0x572D17F8)
+F (.\SDK\components\libraries\button\app_button.c)(0x572D17F6)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\SDK\components\softdevice\common\softdevice_handler -I .\SDK\components\softdevice\s132\headers -I .\SDK\components\softdevice\s132\headers\nrf52 -I .\SDK\components\toolchain -I .\SDK\bsp -I .\SDK\external\segger_rtt -I .\SDK\config -I .\SDK\components\ble\common -I .\SDK\components\drivers_nrf\common -I .\SDK\components\drivers_nrf\config -I .\SDK\components\drivers_nrf\delay -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\hal -I .\SDK\components\drivers_nrf\uart -I .\SDK\components\libraries\button -I .\SDK\components\libraries\timer -I .\SDK\components\libraries\uart -I .\SDK\components\libraries\util -I .\SDK\components\drivers_nrf\twi_master -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\ppi -I .\SDK\components\drivers_nrf\timer -I "..\Wibeacon - ADC" -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\clock -I .\SDK\components\ble\ble_services\ble_bas -I .\SDK\components\ble\ble_services\ble_dis -I .\SDK\components\ble\ble_services\ble_hts -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\pstorage -I "..\Wibeacon - RECOVERY"-I "C:\Users\Olivier\Desktop\Wibeacon - RECOVERY\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DNRF52 -DCONFIG_GPIO_AS_PINRESET -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0-o .\objects\app_button.o --omf_browse .\objects\app_button.crf --depend .\objects\app_button.d)
+I (SDK\components\libraries\button\app_button.h)(0x572D17F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DBD440)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DBD436)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\system_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_bitfields.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf51_to_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_name_change.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\compiler_abstraction.h)(0x5708FF4E)
+I (.\SDK\components\libraries\util\app_error.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DBD436)
+I (.\SDK\components\libraries\util\sdk_errors.h)(0x572D17F8)
+I (.\SDK\components\softdevice\s132\headers\nrf_error.h)(0x572D1800)
+I (.\SDK\components\libraries\util\nordic_common.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\nrf_log.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55DBD43E)
+I (.\SDK\components\libraries\util\app_util.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\app_error_weak.h)(0x572D17F8)
+I (.\SDK\components\drivers_nrf\hal\nrf_gpio.h)(0x572D17F4)
+I (.\SDK\components\libraries\timer\app_timer.h)(0x572D17F8)
+I (.\SDK\components\drivers_nrf\gpiote\nrf_drv_gpiote.h)(0x572D17F4)
+I (.\SDK\components\drivers_nrf\hal\nrf_gpiote.h)(0x572D17F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55DBD43E)
+I (.\SDK\config\nrf_drv_config.h)(0x57AB5897)
+I (.\SDK\components\drivers_nrf\config\nrf_drv_config_validation.h)(0x572D17F4)
+I (.\SDK\components\libraries\util\nrf_assert.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\sdk_common.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DBD438)
+I (.\SDK\components\libraries\util\sdk_os.h)(0x572D17F8)
+F (.\SDK\components\libraries\uart\retarget.c)(0x572D17F8)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\SDK\components\softdevice\common\softdevice_handler -I .\SDK\components\softdevice\s132\headers -I .\SDK\components\softdevice\s132\headers\nrf52 -I .\SDK\components\toolchain -I .\SDK\bsp -I .\SDK\external\segger_rtt -I .\SDK\config -I .\SDK\components\ble\common -I .\SDK\components\drivers_nrf\common -I .\SDK\components\drivers_nrf\config -I .\SDK\components\drivers_nrf\delay -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\hal -I .\SDK\components\drivers_nrf\uart -I .\SDK\components\libraries\button -I .\SDK\components\libraries\timer -I .\SDK\components\libraries\uart -I .\SDK\components\libraries\util -I .\SDK\components\drivers_nrf\twi_master -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\ppi -I .\SDK\components\drivers_nrf\timer -I "..\Wibeacon - ADC" -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\clock -I .\SDK\components\ble\ble_services\ble_bas -I .\SDK\components\ble\ble_services\ble_dis -I .\SDK\components\ble\ble_services\ble_hts -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\pstorage -I "..\Wibeacon - RECOVERY"-I "C:\Users\Olivier\Desktop\Wibeacon - RECOVERY\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DNRF52 -DCONFIG_GPIO_AS_PINRESET -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0-o .\objects\retarget.o --omf_browse .\objects\retarget.crf --depend .\objects\retarget.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DBD436)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DBD440)
+I (SDK\components\libraries\uart\app_uart.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DBD436)
+I (.\SDK\components\libraries\util\app_util_platform.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\compiler_abstraction.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\system_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_bitfields.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf51_to_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_name_change.h)(0x5708FF4E)
+I (.\SDK\components\softdevice\s132\headers\nrf_soc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_svc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_error_soc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_error.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_nvic.h)(0x572D1800)
+I (.\SDK\components\libraries\util\nrf_assert.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\app_error.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\sdk_errors.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\nordic_common.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\nrf_log.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55DBD43E)
+I (.\SDK\components\libraries\util\app_util.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\app_error_weak.h)(0x572D17F8)
+F (.\SDK\components\libraries\util\app_error.c)(0x572D17F8)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\SDK\components\softdevice\common\softdevice_handler -I .\SDK\components\softdevice\s132\headers -I .\SDK\components\softdevice\s132\headers\nrf52 -I .\SDK\components\toolchain -I .\SDK\bsp -I .\SDK\external\segger_rtt -I .\SDK\config -I .\SDK\components\ble\common -I .\SDK\components\drivers_nrf\common -I .\SDK\components\drivers_nrf\config -I .\SDK\components\drivers_nrf\delay -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\hal -I .\SDK\components\drivers_nrf\uart -I .\SDK\components\libraries\button -I .\SDK\components\libraries\timer -I .\SDK\components\libraries\uart -I .\SDK\components\libraries\util -I .\SDK\components\drivers_nrf\twi_master -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\ppi -I .\SDK\components\drivers_nrf\timer -I "..\Wibeacon - ADC" -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\clock -I .\SDK\components\ble\ble_services\ble_bas -I .\SDK\components\ble\ble_services\ble_dis -I .\SDK\components\ble\ble_services\ble_hts -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\pstorage -I "..\Wibeacon - RECOVERY"-I "C:\Users\Olivier\Desktop\Wibeacon - RECOVERY\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DNRF52 -DCONFIG_GPIO_AS_PINRESET -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0-o .\objects\app_error.o --omf_browse .\objects\app_error.crf --depend .\objects\app_error.d)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DBD440)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\system_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_bitfields.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf51_to_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_name_change.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\compiler_abstraction.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DBD436)
+I (SDK\components\libraries\util\app_error.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DBD436)
+I (SDK\components\libraries\util\sdk_errors.h)(0x572D17F8)
+I (.\SDK\components\softdevice\s132\headers\nrf_error.h)(0x572D1800)
+I (SDK\components\libraries\util\nordic_common.h)(0x572D17F8)
+I (SDK\components\libraries\util\nrf_log.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55DBD43E)
+I (.\SDK\components\libraries\util\app_util.h)(0x572D17F8)
+I (SDK\components\libraries\util\app_error_weak.h)(0x572D17F8)
+F (.\SDK\components\libraries\util\app_error_weak.c)(0x572D17F8)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\SDK\components\softdevice\common\softdevice_handler -I .\SDK\components\softdevice\s132\headers -I .\SDK\components\softdevice\s132\headers\nrf52 -I .\SDK\components\toolchain -I .\SDK\bsp -I .\SDK\external\segger_rtt -I .\SDK\config -I .\SDK\components\ble\common -I .\SDK\components\drivers_nrf\common -I .\SDK\components\drivers_nrf\config -I .\SDK\components\drivers_nrf\delay -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\hal -I .\SDK\components\drivers_nrf\uart -I .\SDK\components\libraries\button -I .\SDK\components\libraries\timer -I .\SDK\components\libraries\uart -I .\SDK\components\libraries\util -I .\SDK\components\drivers_nrf\twi_master -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\ppi -I .\SDK\components\drivers_nrf\timer -I "..\Wibeacon - ADC" -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\clock -I .\SDK\components\ble\ble_services\ble_bas -I .\SDK\components\ble\ble_services\ble_dis -I .\SDK\components\ble\ble_services\ble_hts -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\pstorage -I "..\Wibeacon - RECOVERY"-I "C:\Users\Olivier\Desktop\Wibeacon - RECOVERY\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DNRF52 -DCONFIG_GPIO_AS_PINRESET -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0-o .\objects\app_error_weak.o --omf_browse .\objects\app_error_weak.crf --depend .\objects\app_error_weak.d)
+I (SDK\components\libraries\util\app_error.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DBD440)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DBD436)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DBD436)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\system_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_bitfields.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf51_to_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_name_change.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\compiler_abstraction.h)(0x5708FF4E)
+I (SDK\components\libraries\util\sdk_errors.h)(0x572D17F8)
+I (.\SDK\components\softdevice\s132\headers\nrf_error.h)(0x572D1800)
+I (SDK\components\libraries\util\nordic_common.h)(0x572D17F8)
+I (SDK\components\libraries\util\nrf_log.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55DBD43E)
+I (.\SDK\components\libraries\util\app_util.h)(0x572D17F8)
+I (SDK\components\libraries\util\app_error_weak.h)(0x572D17F8)
+F (.\SDK\components\libraries\util\app_util_platform.c)(0x572D17F8)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\SDK\components\softdevice\common\softdevice_handler -I .\SDK\components\softdevice\s132\headers -I .\SDK\components\softdevice\s132\headers\nrf52 -I .\SDK\components\toolchain -I .\SDK\bsp -I .\SDK\external\segger_rtt -I .\SDK\config -I .\SDK\components\ble\common -I .\SDK\components\drivers_nrf\common -I .\SDK\components\drivers_nrf\config -I .\SDK\components\drivers_nrf\delay -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\hal -I .\SDK\components\drivers_nrf\uart -I .\SDK\components\libraries\button -I .\SDK\components\libraries\timer -I .\SDK\components\libraries\uart -I .\SDK\components\libraries\util -I .\SDK\components\drivers_nrf\twi_master -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\ppi -I .\SDK\components\drivers_nrf\timer -I "..\Wibeacon - ADC" -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\clock -I .\SDK\components\ble\ble_services\ble_bas -I .\SDK\components\ble\ble_services\ble_dis -I .\SDK\components\ble\ble_services\ble_hts -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\pstorage -I "..\Wibeacon - RECOVERY"-I "C:\Users\Olivier\Desktop\Wibeacon - RECOVERY\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DNRF52 -DCONFIG_GPIO_AS_PINRESET -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0-o .\objects\app_util_platform.o --omf_browse .\objects\app_util_platform.crf --depend .\objects\app_util_platform.d)
+I (SDK\components\libraries\util\app_util_platform.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DBD440)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\compiler_abstraction.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\system_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_bitfields.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf51_to_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_name_change.h)(0x5708FF4E)
+I (.\SDK\components\softdevice\s132\headers\nrf_soc.h)(0x572D1800)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DBD436)
+I (.\SDK\components\softdevice\s132\headers\nrf_svc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_error_soc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_error.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_nvic.h)(0x572D1800)
+I (SDK\components\libraries\util\nrf_assert.h)(0x572D17F8)
+I (SDK\components\libraries\util\app_error.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DBD436)
+I (SDK\components\libraries\util\sdk_errors.h)(0x572D17F8)
+I (SDK\components\libraries\util\nordic_common.h)(0x572D17F8)
+I (SDK\components\libraries\util\nrf_log.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55DBD43E)
+I (.\SDK\components\libraries\util\app_util.h)(0x572D17F8)
+I (SDK\components\libraries\util\app_error_weak.h)(0x572D17F8)
+F (.\SDK\components\libraries\util\nrf_assert.c)(0x572D17F8)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\SDK\components\softdevice\common\softdevice_handler -I .\SDK\components\softdevice\s132\headers -I .\SDK\components\softdevice\s132\headers\nrf52 -I .\SDK\components\toolchain -I .\SDK\bsp -I .\SDK\external\segger_rtt -I .\SDK\config -I .\SDK\components\ble\common -I .\SDK\components\drivers_nrf\common -I .\SDK\components\drivers_nrf\config -I .\SDK\components\drivers_nrf\delay -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\hal -I .\SDK\components\drivers_nrf\uart -I .\SDK\components\libraries\button -I .\SDK\components\libraries\timer -I .\SDK\components\libraries\uart -I .\SDK\components\libraries\util -I .\SDK\components\drivers_nrf\twi_master -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\ppi -I .\SDK\components\drivers_nrf\timer -I "..\Wibeacon - ADC" -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\clock -I .\SDK\components\ble\ble_services\ble_bas -I .\SDK\components\ble\ble_services\ble_dis -I .\SDK\components\ble\ble_services\ble_hts -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\pstorage -I "..\Wibeacon - RECOVERY"-I "C:\Users\Olivier\Desktop\Wibeacon - RECOVERY\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DNRF52 -DCONFIG_GPIO_AS_PINRESET -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0-o .\objects\nrf_assert.o --omf_browse .\objects\nrf_assert.crf --depend .\objects\nrf_assert.d)
+I (SDK\components\libraries\util\nrf_assert.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DBD440)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\system_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_bitfields.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf51_to_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_name_change.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\compiler_abstraction.h)(0x5708FF4E)
+I (SDK\components\libraries\util\app_error.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DBD436)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DBD436)
+I (SDK\components\libraries\util\sdk_errors.h)(0x572D17F8)
+I (.\SDK\components\softdevice\s132\headers\nrf_error.h)(0x572D1800)
+I (SDK\components\libraries\util\nordic_common.h)(0x572D17F8)
+I (SDK\components\libraries\util\nrf_log.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55DBD43E)
+I (.\SDK\components\libraries\util\app_util.h)(0x572D17F8)
+I (SDK\components\libraries\util\app_error_weak.h)(0x572D17F8)
+F (.\SDK\components\libraries\util\nrf_log.c)(0x57A8D1A0)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\SDK\components\softdevice\common\softdevice_handler -I .\SDK\components\softdevice\s132\headers -I .\SDK\components\softdevice\s132\headers\nrf52 -I .\SDK\components\toolchain -I .\SDK\bsp -I .\SDK\external\segger_rtt -I .\SDK\config -I .\SDK\components\ble\common -I .\SDK\components\drivers_nrf\common -I .\SDK\components\drivers_nrf\config -I .\SDK\components\drivers_nrf\delay -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\hal -I .\SDK\components\drivers_nrf\uart -I .\SDK\components\libraries\button -I .\SDK\components\libraries\timer -I .\SDK\components\libraries\uart -I .\SDK\components\libraries\util -I .\SDK\components\drivers_nrf\twi_master -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\ppi -I .\SDK\components\drivers_nrf\timer -I "..\Wibeacon - ADC" -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\clock -I .\SDK\components\ble\ble_services\ble_bas -I .\SDK\components\ble\ble_services\ble_dis -I .\SDK\components\ble\ble_services\ble_hts -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\pstorage -I "..\Wibeacon - RECOVERY"-I "C:\Users\Olivier\Desktop\Wibeacon - RECOVERY\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DNRF52 -DCONFIG_GPIO_AS_PINRESET -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0-o .\objects\nrf_log.o --omf_browse .\objects\nrf_log.crf --depend .\objects\nrf_log.d)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DBD440)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\system_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_bitfields.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf51_to_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_name_change.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\compiler_abstraction.h)(0x5708FF4E)
+I (SDK\components\libraries\util\nrf_log.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55DBD43E)
+I (.\SDK\components\libraries\util\app_util.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DBD436)
+I (.\SDK\components\softdevice\s132\headers\nrf_error.h)(0x572D1800)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DBD438)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DBD436)
+F (.\SDK\components\libraries\timer\app_timer.c)(0x572D17F8)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\SDK\components\softdevice\common\softdevice_handler -I .\SDK\components\softdevice\s132\headers -I .\SDK\components\softdevice\s132\headers\nrf52 -I .\SDK\components\toolchain -I .\SDK\bsp -I .\SDK\external\segger_rtt -I .\SDK\config -I .\SDK\components\ble\common -I .\SDK\components\drivers_nrf\common -I .\SDK\components\drivers_nrf\config -I .\SDK\components\drivers_nrf\delay -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\hal -I .\SDK\components\drivers_nrf\uart -I .\SDK\components\libraries\button -I .\SDK\components\libraries\timer -I .\SDK\components\libraries\uart -I .\SDK\components\libraries\util -I .\SDK\components\drivers_nrf\twi_master -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\ppi -I .\SDK\components\drivers_nrf\timer -I "..\Wibeacon - ADC" -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\clock -I .\SDK\components\ble\ble_services\ble_bas -I .\SDK\components\ble\ble_services\ble_dis -I .\SDK\components\ble\ble_services\ble_hts -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\pstorage -I "..\Wibeacon - RECOVERY"-I "C:\Users\Olivier\Desktop\Wibeacon - RECOVERY\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DNRF52 -DCONFIG_GPIO_AS_PINRESET -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0-o .\objects\app_timer.o --omf_browse .\objects\app_timer.crf --depend .\objects\app_timer.d)
+I (SDK\components\libraries\timer\app_timer.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DBD440)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DBD436)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DBD436)
+I (.\SDK\components\libraries\util\app_error.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\system_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_bitfields.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf51_to_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_name_change.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\compiler_abstraction.h)(0x5708FF4E)
+I (.\SDK\components\libraries\util\sdk_errors.h)(0x572D17F8)
+I (.\SDK\components\softdevice\s132\headers\nrf_error.h)(0x572D1800)
+I (.\SDK\components\libraries\util\nordic_common.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\nrf_log.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55DBD43E)
+I (.\SDK\components\libraries\util\app_util.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\app_error_weak.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DBD438)
+I (.\SDK\components\softdevice\s132\headers\nrf_soc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_svc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_error_soc.h)(0x572D1800)
+I (.\SDK\components\drivers_nrf\delay\nrf_delay.h)(0x572D17F4)
+I (.\SDK\components\libraries\util\app_util_platform.h)(0x572D17F8)
+I (.\SDK\components\softdevice\s132\headers\nrf_nvic.h)(0x572D1800)
+I (.\SDK\components\libraries\util\nrf_assert.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\sdk_common.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DBD438)
+I (.\SDK\components\libraries\util\sdk_os.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\sdk_macros.h)(0x572D17F8)
+F (.\SDK\components\softdevice\common\softdevice_handler\softdevice_handler.c)(0x572D17FF)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\SDK\components\softdevice\common\softdevice_handler -I .\SDK\components\softdevice\s132\headers -I .\SDK\components\softdevice\s132\headers\nrf52 -I .\SDK\components\toolchain -I .\SDK\bsp -I .\SDK\external\segger_rtt -I .\SDK\config -I .\SDK\components\ble\common -I .\SDK\components\drivers_nrf\common -I .\SDK\components\drivers_nrf\config -I .\SDK\components\drivers_nrf\delay -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\hal -I .\SDK\components\drivers_nrf\uart -I .\SDK\components\libraries\button -I .\SDK\components\libraries\timer -I .\SDK\components\libraries\uart -I .\SDK\components\libraries\util -I .\SDK\components\drivers_nrf\twi_master -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\ppi -I .\SDK\components\drivers_nrf\timer -I "..\Wibeacon - ADC" -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\clock -I .\SDK\components\ble\ble_services\ble_bas -I .\SDK\components\ble\ble_services\ble_dis -I .\SDK\components\ble\ble_services\ble_hts -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\pstorage -I "..\Wibeacon - RECOVERY"-I "C:\Users\Olivier\Desktop\Wibeacon - RECOVERY\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DNRF52 -DCONFIG_GPIO_AS_PINRESET -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0-o .\objects\softdevice_handler.o --omf_browse .\objects\softdevice_handler.crf --depend .\objects\softdevice_handler.d)
+I (SDK\components\softdevice\common\softdevice_handler\softdevice_handler.h)(0x572D17FF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DBD438)
+I (.\SDK\components\libraries\util\nordic_common.h)(0x572D17F8)
+I (.\SDK\components\softdevice\s132\headers\nrf_sdm.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_svc.h)(0x572D1800)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DBD440)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\system_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_bitfields.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf51_to_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_name_change.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\compiler_abstraction.h)(0x5708FF4E)
+I (.\SDK\components\softdevice\s132\headers\nrf_soc.h)(0x572D1800)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DBD436)
+I (.\SDK\components\softdevice\s132\headers\nrf_error_soc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_error.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_error_sdm.h)(0x572D1800)
+I (.\SDK\components\libraries\util\app_error.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DBD436)
+I (.\SDK\components\libraries\util\sdk_errors.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\nrf_log.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55DBD43E)
+I (.\SDK\components\libraries\util\app_util.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\app_error_weak.h)(0x572D17F8)
+I (SDK\components\softdevice\common\softdevice_handler\ble_stack_handler_types.h)(0x572D17FF)
+I (.\SDK\components\softdevice\s132\headers\ble.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_ranges.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_types.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_gap.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_l2cap.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_err.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_gatt.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_gattc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\ble_gatts.h)(0x572D1800)
+I (SDK\components\softdevice\common\softdevice_handler\ant_stack_handler_types.h)(0x572D17FF)
+I (SDK\components\softdevice\common\softdevice_handler\app_ram_base.h)(0x572D17FF)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DBD438)
+I (.\SDK\components\libraries\util\nrf_assert.h)(0x572D17F8)
+I (.\SDK\components\softdevice\s132\headers\nrf_nvic.h)(0x572D1800)
+I (.\SDK\components\libraries\util\sdk_common.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\sdk_os.h)(0x572D17F8)
+I (.\SDK\config\nrf_drv_config.h)(0x57AB5897)
+I (.\SDK\components\drivers_nrf\config\nrf_drv_config_validation.h)(0x572D17F4)
+F (.\SDK\components\libraries\uart\app_uart.c)(0x572D17F8)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\SDK\components\softdevice\common\softdevice_handler -I .\SDK\components\softdevice\s132\headers -I .\SDK\components\softdevice\s132\headers\nrf52 -I .\SDK\components\toolchain -I .\SDK\bsp -I .\SDK\external\segger_rtt -I .\SDK\config -I .\SDK\components\ble\common -I .\SDK\components\drivers_nrf\common -I .\SDK\components\drivers_nrf\config -I .\SDK\components\drivers_nrf\delay -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\hal -I .\SDK\components\drivers_nrf\uart -I .\SDK\components\libraries\button -I .\SDK\components\libraries\timer -I .\SDK\components\libraries\uart -I .\SDK\components\libraries\util -I .\SDK\components\drivers_nrf\twi_master -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\ppi -I .\SDK\components\drivers_nrf\timer -I "..\Wibeacon - ADC" -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\clock -I .\SDK\components\ble\ble_services\ble_bas -I .\SDK\components\ble\ble_services\ble_dis -I .\SDK\components\ble\ble_services\ble_hts -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\pstorage -I "..\Wibeacon - RECOVERY"-I "C:\Users\Olivier\Desktop\Wibeacon - RECOVERY\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DNRF52 -DCONFIG_GPIO_AS_PINRESET -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0-o .\objects\app_uart.o --omf_browse .\objects\app_uart.crf --depend .\objects\app_uart.d)
+I (SDK\components\libraries\uart\app_uart.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DBD440)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DBD436)
+I (.\SDK\components\libraries\util\app_util_platform.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\compiler_abstraction.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\system_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_bitfields.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf51_to_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_name_change.h)(0x5708FF4E)
+I (.\SDK\components\softdevice\s132\headers\nrf_soc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_svc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_error_soc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_error.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_nvic.h)(0x572D1800)
+I (.\SDK\components\libraries\util\nrf_assert.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\app_error.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DBD436)
+I (.\SDK\components\libraries\util\sdk_errors.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\nordic_common.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\nrf_log.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55DBD43E)
+I (.\SDK\components\libraries\util\app_util.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\app_error_weak.h)(0x572D17F8)
+I (.\SDK\components\drivers_nrf\uart\nrf_drv_uart.h)(0x572D17F6)
+I (.\SDK\components\drivers_nrf\hal\nrf_uart.h)(0x572D17F5)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55DBD43E)
+I (.\SDK\components\drivers_nrf\hal\nrf_uarte.h)(0x572D17F5)
+I (.\SDK\config\nrf_drv_config.h)(0x57AB5897)
+I (.\SDK\components\drivers_nrf\config\nrf_drv_config_validation.h)(0x572D17F4)
+I (.\SDK\components\libraries\util\sdk_common.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DBD438)
+I (.\SDK\components\libraries\util\sdk_os.h)(0x572D17F8)
+F (.\SDK\components\drivers_nrf\uart\nrf_drv_uart.c)(0x572D17F6)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\SDK\components\softdevice\common\softdevice_handler -I .\SDK\components\softdevice\s132\headers -I .\SDK\components\softdevice\s132\headers\nrf52 -I .\SDK\components\toolchain -I .\SDK\bsp -I .\SDK\external\segger_rtt -I .\SDK\config -I .\SDK\components\ble\common -I .\SDK\components\drivers_nrf\common -I .\SDK\components\drivers_nrf\config -I .\SDK\components\drivers_nrf\delay -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\hal -I .\SDK\components\drivers_nrf\uart -I .\SDK\components\libraries\button -I .\SDK\components\libraries\timer -I .\SDK\components\libraries\uart -I .\SDK\components\libraries\util -I .\SDK\components\drivers_nrf\twi_master -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\ppi -I .\SDK\components\drivers_nrf\timer -I "..\Wibeacon - ADC" -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\clock -I .\SDK\components\ble\ble_services\ble_bas -I .\SDK\components\ble\ble_services\ble_dis -I .\SDK\components\ble\ble_services\ble_hts -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\pstorage -I "..\Wibeacon - RECOVERY"-I "C:\Users\Olivier\Desktop\Wibeacon - RECOVERY\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DNRF52 -DCONFIG_GPIO_AS_PINRESET -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0-o .\objects\nrf_drv_uart.o --omf_browse .\objects\nrf_drv_uart.crf --depend .\objects\nrf_drv_uart.d)
+I (SDK\components\drivers_nrf\uart\nrf_drv_uart.h)(0x572D17F6)
+I (.\SDK\components\drivers_nrf\hal\nrf_uart.h)(0x572D17F5)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DBD440)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\system_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_bitfields.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf51_to_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_name_change.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\compiler_abstraction.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55DBD43E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DBD436)
+I (.\SDK\components\drivers_nrf\hal\nrf_uarte.h)(0x572D17F5)
+I (.\SDK\components\libraries\util\sdk_errors.h)(0x572D17F8)
+I (.\SDK\components\softdevice\s132\headers\nrf_error.h)(0x572D1800)
+I (.\SDK\config\nrf_drv_config.h)(0x57AB5897)
+I (.\SDK\components\drivers_nrf\config\nrf_drv_config_validation.h)(0x572D17F4)
+I (.\SDK\components\libraries\util\nrf_assert.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\app_error.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DBD436)
+I (.\SDK\components\libraries\util\nordic_common.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\nrf_log.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55DBD43E)
+I (.\SDK\components\libraries\util\app_util.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\app_error_weak.h)(0x572D17F8)
+I (.\SDK\components\drivers_nrf\common\nrf_drv_common.h)(0x572D17F4)
+I (.\SDK\components\drivers_nrf\hal\nrf_gpio.h)(0x572D17F4)
+I (.\SDK\components\libraries\util\app_util_platform.h)(0x572D17F8)
+I (.\SDK\components\softdevice\s132\headers\nrf_soc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_svc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_error_soc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_nvic.h)(0x572D1800)
+F (.\SDK\components\drivers_nrf\common\nrf_drv_common.c)(0x572D17F4)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\SDK\components\softdevice\common\softdevice_handler -I .\SDK\components\softdevice\s132\headers -I .\SDK\components\softdevice\s132\headers\nrf52 -I .\SDK\components\toolchain -I .\SDK\bsp -I .\SDK\external\segger_rtt -I .\SDK\config -I .\SDK\components\ble\common -I .\SDK\components\drivers_nrf\common -I .\SDK\components\drivers_nrf\config -I .\SDK\components\drivers_nrf\delay -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\hal -I .\SDK\components\drivers_nrf\uart -I .\SDK\components\libraries\button -I .\SDK\components\libraries\timer -I .\SDK\components\libraries\uart -I .\SDK\components\libraries\util -I .\SDK\components\drivers_nrf\twi_master -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\ppi -I .\SDK\components\drivers_nrf\timer -I "..\Wibeacon - ADC" -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\clock -I .\SDK\components\ble\ble_services\ble_bas -I .\SDK\components\ble\ble_services\ble_dis -I .\SDK\components\ble\ble_services\ble_hts -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\pstorage -I "..\Wibeacon - RECOVERY"-I "C:\Users\Olivier\Desktop\Wibeacon - RECOVERY\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DNRF52 -DCONFIG_GPIO_AS_PINRESET -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0-o .\objects\nrf_drv_common.o --omf_browse .\objects\nrf_drv_common.crf --depend .\objects\nrf_drv_common.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55DBD43E)
+I (SDK\components\drivers_nrf\common\nrf_drv_common.h)(0x572D17F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DBD440)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DBD436)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\system_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_bitfields.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf51_to_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_name_change.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\compiler_abstraction.h)(0x5708FF4E)
+I (.\SDK\components\libraries\util\sdk_errors.h)(0x572D17F8)
+I (.\SDK\components\softdevice\s132\headers\nrf_error.h)(0x572D1800)
+I (.\SDK\config\nrf_drv_config.h)(0x57AB5897)
+I (.\SDK\components\drivers_nrf\config\nrf_drv_config_validation.h)(0x572D17F4)
+I (.\SDK\components\libraries\util\nrf_assert.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\app_error.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DBD436)
+I (.\SDK\components\libraries\util\nordic_common.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\nrf_log.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55DBD43E)
+I (.\SDK\components\libraries\util\app_util.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\app_error_weak.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\app_util_platform.h)(0x572D17F8)
+I (.\SDK\components\softdevice\s132\headers\nrf_soc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_svc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_error_soc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_nvic.h)(0x572D1800)
+F (.\SDK\components\drivers_nrf\gpiote\nrf_drv_gpiote.c)(0x572D17F4)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\SDK\components\softdevice\common\softdevice_handler -I .\SDK\components\softdevice\s132\headers -I .\SDK\components\softdevice\s132\headers\nrf52 -I .\SDK\components\toolchain -I .\SDK\bsp -I .\SDK\external\segger_rtt -I .\SDK\config -I .\SDK\components\ble\common -I .\SDK\components\drivers_nrf\common -I .\SDK\components\drivers_nrf\config -I .\SDK\components\drivers_nrf\delay -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\hal -I .\SDK\components\drivers_nrf\uart -I .\SDK\components\libraries\button -I .\SDK\components\libraries\timer -I .\SDK\components\libraries\uart -I .\SDK\components\libraries\util -I .\SDK\components\drivers_nrf\twi_master -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\ppi -I .\SDK\components\drivers_nrf\timer -I "..\Wibeacon - ADC" -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\clock -I .\SDK\components\ble\ble_services\ble_bas -I .\SDK\components\ble\ble_services\ble_dis -I .\SDK\components\ble\ble_services\ble_hts -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\pstorage -I "..\Wibeacon - RECOVERY"-I "C:\Users\Olivier\Desktop\Wibeacon - RECOVERY\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DNRF52 -DCONFIG_GPIO_AS_PINRESET -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0-o .\objects\nrf_drv_gpiote.o --omf_browse .\objects\nrf_drv_gpiote.crf --depend .\objects\nrf_drv_gpiote.d)
+I (SDK\components\drivers_nrf\gpiote\nrf_drv_gpiote.h)(0x572D17F4)
+I (.\SDK\components\drivers_nrf\hal\nrf_gpiote.h)(0x572D17F4)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DBD440)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\system_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_bitfields.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf51_to_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_name_change.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\compiler_abstraction.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55DBD43E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DBD436)
+I (.\SDK\components\drivers_nrf\hal\nrf_gpio.h)(0x572D17F4)
+I (.\SDK\config\nrf_drv_config.h)(0x57AB5897)
+I (.\SDK\components\drivers_nrf\config\nrf_drv_config_validation.h)(0x572D17F4)
+I (.\SDK\components\libraries\util\sdk_errors.h)(0x572D17F8)
+I (.\SDK\components\softdevice\s132\headers\nrf_error.h)(0x572D1800)
+I (.\SDK\components\drivers_nrf\common\nrf_drv_common.h)(0x572D17F4)
+I (.\SDK\components\libraries\util\app_util_platform.h)(0x572D17F8)
+I (.\SDK\components\softdevice\s132\headers\nrf_soc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_svc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_error_soc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_nvic.h)(0x572D1800)
+I (.\SDK\components\libraries\util\nrf_assert.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\app_error.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DBD436)
+I (.\SDK\components\libraries\util\nordic_common.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\nrf_log.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55DBD43E)
+I (.\SDK\components\libraries\util\app_util.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\app_error_weak.h)(0x572D17F8)
+F (.\SDK\components\drivers_nrf\delay\nrf_delay.c)(0x572D17F4)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\SDK\components\softdevice\common\softdevice_handler -I .\SDK\components\softdevice\s132\headers -I .\SDK\components\softdevice\s132\headers\nrf52 -I .\SDK\components\toolchain -I .\SDK\bsp -I .\SDK\external\segger_rtt -I .\SDK\config -I .\SDK\components\ble\common -I .\SDK\components\drivers_nrf\common -I .\SDK\components\drivers_nrf\config -I .\SDK\components\drivers_nrf\delay -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\hal -I .\SDK\components\drivers_nrf\uart -I .\SDK\components\libraries\button -I .\SDK\components\libraries\timer -I .\SDK\components\libraries\uart -I .\SDK\components\libraries\util -I .\SDK\components\drivers_nrf\twi_master -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\ppi -I .\SDK\components\drivers_nrf\timer -I "..\Wibeacon - ADC" -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\clock -I .\SDK\components\ble\ble_services\ble_bas -I .\SDK\components\ble\ble_services\ble_dis -I .\SDK\components\ble\ble_services\ble_hts -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\pstorage -I "..\Wibeacon - RECOVERY"-I "C:\Users\Olivier\Desktop\Wibeacon - RECOVERY\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DNRF52 -DCONFIG_GPIO_AS_PINRESET -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0-o .\objects\nrf_delay.o --omf_browse .\objects\nrf_delay.crf --depend .\objects\nrf_delay.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DBD436)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\compiler_abstraction.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DBD440)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\system_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_bitfields.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf51_to_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_name_change.h)(0x5708FF4E)
+I (SDK\components\drivers_nrf\delay\nrf_delay.h)(0x572D17F4)
+F (.\SDK\components\drivers_nrf\twi_master\nrf_drv_twi.c)(0x572D17F6)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\SDK\components\softdevice\common\softdevice_handler -I .\SDK\components\softdevice\s132\headers -I .\SDK\components\softdevice\s132\headers\nrf52 -I .\SDK\components\toolchain -I .\SDK\bsp -I .\SDK\external\segger_rtt -I .\SDK\config -I .\SDK\components\ble\common -I .\SDK\components\drivers_nrf\common -I .\SDK\components\drivers_nrf\config -I .\SDK\components\drivers_nrf\delay -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\hal -I .\SDK\components\drivers_nrf\uart -I .\SDK\components\libraries\button -I .\SDK\components\libraries\timer -I .\SDK\components\libraries\uart -I .\SDK\components\libraries\util -I .\SDK\components\drivers_nrf\twi_master -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\ppi -I .\SDK\components\drivers_nrf\timer -I "..\Wibeacon - ADC" -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\clock -I .\SDK\components\ble\ble_services\ble_bas -I .\SDK\components\ble\ble_services\ble_dis -I .\SDK\components\ble\ble_services\ble_hts -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\pstorage -I "..\Wibeacon - RECOVERY"-I "C:\Users\Olivier\Desktop\Wibeacon - RECOVERY\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DNRF52 -DCONFIG_GPIO_AS_PINRESET -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0-o .\objects\nrf_drv_twi.o --omf_browse .\objects\nrf_drv_twi.crf --depend .\objects\nrf_drv_twi.d)
+I (SDK\components\drivers_nrf\twi_master\nrf_drv_twi.h)(0x572D17F6)
+I (.\SDK\components\libraries\util\nordic_common.h)(0x572D17F8)
+I (.\SDK\config\nrf_drv_config.h)(0x57AB5897)
+I (.\SDK\components\drivers_nrf\config\nrf_drv_config_validation.h)(0x572D17F4)
+I (.\SDK\components\drivers_nrf\hal\nrf_twi.h)(0x572D17F5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DBD440)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55DBD43E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DBD436)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\system_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_bitfields.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf51_to_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_name_change.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\compiler_abstraction.h)(0x5708FF4E)
+I (.\SDK\components\libraries\util\sdk_errors.h)(0x572D17F8)
+I (.\SDK\components\softdevice\s132\headers\nrf_error.h)(0x572D1800)
+I (.\SDK\components\drivers_nrf\common\nrf_drv_common.h)(0x572D17F4)
+I (.\SDK\components\drivers_nrf\hal\nrf_gpio.h)(0x572D17F4)
+I (.\SDK\components\libraries\util\nrf_assert.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\app_error.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DBD436)
+I (.\SDK\components\libraries\util\nrf_log.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55DBD43E)
+I (.\SDK\components\libraries\util\app_util.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\app_error_weak.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\app_util_platform.h)(0x572D17F8)
+I (.\SDK\components\softdevice\s132\headers\nrf_soc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_svc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_error_soc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_nvic.h)(0x572D1800)
+I (.\SDK\components\drivers_nrf\delay\nrf_delay.h)(0x572D17F4)
+F (.\SDK\components\drivers_nrf\saadc\nrf_drv_saadc.c)(0x572D17F5)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\SDK\components\softdevice\common\softdevice_handler -I .\SDK\components\softdevice\s132\headers -I .\SDK\components\softdevice\s132\headers\nrf52 -I .\SDK\components\toolchain -I .\SDK\bsp -I .\SDK\external\segger_rtt -I .\SDK\config -I .\SDK\components\ble\common -I .\SDK\components\drivers_nrf\common -I .\SDK\components\drivers_nrf\config -I .\SDK\components\drivers_nrf\delay -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\hal -I .\SDK\components\drivers_nrf\uart -I .\SDK\components\libraries\button -I .\SDK\components\libraries\timer -I .\SDK\components\libraries\uart -I .\SDK\components\libraries\util -I .\SDK\components\drivers_nrf\twi_master -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\ppi -I .\SDK\components\drivers_nrf\timer -I "..\Wibeacon - ADC" -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\clock -I .\SDK\components\ble\ble_services\ble_bas -I .\SDK\components\ble\ble_services\ble_dis -I .\SDK\components\ble\ble_services\ble_hts -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\pstorage -I "..\Wibeacon - RECOVERY"-I "C:\Users\Olivier\Desktop\Wibeacon - RECOVERY\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DNRF52 -DCONFIG_GPIO_AS_PINRESET -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0-o .\objects\nrf_drv_saadc.o --omf_browse .\objects\nrf_drv_saadc.crf --depend .\objects\nrf_drv_saadc.d)
+I (SDK\components\drivers_nrf\saadc\nrf_drv_saadc.h)(0x572D17F5)
+I (.\SDK\config\nrf_drv_config.h)(0x57AB5897)
+I (.\SDK\components\drivers_nrf\config\nrf_drv_config_validation.h)(0x572D17F4)
+I (.\SDK\components\drivers_nrf\hal\nrf_saadc.h)(0x572D17F5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DBD436)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55DBD43E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DBD440)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\system_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_bitfields.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf51_to_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_name_change.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\compiler_abstraction.h)(0x5708FF4E)
+I (.\SDK\components\libraries\util\nrf_assert.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\app_error.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DBD436)
+I (.\SDK\components\libraries\util\sdk_errors.h)(0x572D17F8)
+I (.\SDK\components\softdevice\s132\headers\nrf_error.h)(0x572D1800)
+I (.\SDK\components\libraries\util\nordic_common.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\nrf_log.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55DBD43E)
+I (.\SDK\components\libraries\util\app_util.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\app_error_weak.h)(0x572D17F8)
+I (.\SDK\components\drivers_nrf\common\nrf_drv_common.h)(0x572D17F4)
+I (.\SDK\components\libraries\util\app_util_platform.h)(0x572D17F8)
+I (.\SDK\components\softdevice\s132\headers\nrf_soc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_svc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_error_soc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_nvic.h)(0x572D1800)
+F (.\SDK\components\drivers_nrf\ppi\nrf_drv_ppi.c)(0x572D17F5)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\SDK\components\softdevice\common\softdevice_handler -I .\SDK\components\softdevice\s132\headers -I .\SDK\components\softdevice\s132\headers\nrf52 -I .\SDK\components\toolchain -I .\SDK\bsp -I .\SDK\external\segger_rtt -I .\SDK\config -I .\SDK\components\ble\common -I .\SDK\components\drivers_nrf\common -I .\SDK\components\drivers_nrf\config -I .\SDK\components\drivers_nrf\delay -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\hal -I .\SDK\components\drivers_nrf\uart -I .\SDK\components\libraries\button -I .\SDK\components\libraries\timer -I .\SDK\components\libraries\uart -I .\SDK\components\libraries\util -I .\SDK\components\drivers_nrf\twi_master -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\ppi -I .\SDK\components\drivers_nrf\timer -I "..\Wibeacon - ADC" -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\clock -I .\SDK\components\ble\ble_services\ble_bas -I .\SDK\components\ble\ble_services\ble_dis -I .\SDK\components\ble\ble_services\ble_hts -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\pstorage -I "..\Wibeacon - RECOVERY"-I "C:\Users\Olivier\Desktop\Wibeacon - RECOVERY\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DNRF52 -DCONFIG_GPIO_AS_PINRESET -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0-o .\objects\nrf_drv_ppi.o --omf_browse .\objects\nrf_drv_ppi.crf --depend .\objects\nrf_drv_ppi.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DBD438)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DBD440)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\system_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_bitfields.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf51_to_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_name_change.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\compiler_abstraction.h)(0x5708FF4E)
+I (SDK\components\drivers_nrf\ppi\nrf_drv_ppi.h)(0x572D17F5)
+I (.\SDK\components\libraries\util\sdk_errors.h)(0x572D17F8)
+I (.\SDK\components\softdevice\s132\headers\nrf_error.h)(0x572D1800)
+I (.\SDK\components\drivers_nrf\hal\nrf_ppi.h)(0x572D17F4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55DBD43E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DBD436)
+I (.\SDK\components\libraries\util\sdk_resources.h)(0x572D17F8)
+I (.\SDK\components\softdevice\s132\headers\nrf_sd_def.h)(0x572D1800)
+I (.\SDK\components\drivers_nrf\common\nrf_drv_common.h)(0x572D17F4)
+I (.\SDK\config\nrf_drv_config.h)(0x57AB5897)
+I (.\SDK\components\drivers_nrf\config\nrf_drv_config_validation.h)(0x572D17F4)
+I (.\SDK\components\libraries\util\app_util_platform.h)(0x572D17F8)
+I (.\SDK\components\softdevice\s132\headers\nrf_soc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_svc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_error_soc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_nvic.h)(0x572D1800)
+I (.\SDK\components\libraries\util\nrf_assert.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\app_error.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DBD436)
+I (.\SDK\components\libraries\util\nordic_common.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\nrf_log.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55DBD43E)
+I (.\SDK\components\libraries\util\app_util.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\app_error_weak.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\sdk_common.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DBD438)
+I (.\SDK\components\libraries\util\sdk_os.h)(0x572D17F8)
+F (.\SDK\components\drivers_nrf\timer\nrf_drv_timer.c)(0x572D17F6)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\SDK\components\softdevice\common\softdevice_handler -I .\SDK\components\softdevice\s132\headers -I .\SDK\components\softdevice\s132\headers\nrf52 -I .\SDK\components\toolchain -I .\SDK\bsp -I .\SDK\external\segger_rtt -I .\SDK\config -I .\SDK\components\ble\common -I .\SDK\components\drivers_nrf\common -I .\SDK\components\drivers_nrf\config -I .\SDK\components\drivers_nrf\delay -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\hal -I .\SDK\components\drivers_nrf\uart -I .\SDK\components\libraries\button -I .\SDK\components\libraries\timer -I .\SDK\components\libraries\uart -I .\SDK\components\libraries\util -I .\SDK\components\drivers_nrf\twi_master -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\ppi -I .\SDK\components\drivers_nrf\timer -I "..\Wibeacon - ADC" -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\clock -I .\SDK\components\ble\ble_services\ble_bas -I .\SDK\components\ble\ble_services\ble_dis -I .\SDK\components\ble\ble_services\ble_hts -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\pstorage -I "..\Wibeacon - RECOVERY"-I "C:\Users\Olivier\Desktop\Wibeacon - RECOVERY\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DNRF52 -DCONFIG_GPIO_AS_PINRESET -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0-o .\objects\nrf_drv_timer.o --omf_browse .\objects\nrf_drv_timer.crf --depend .\objects\nrf_drv_timer.d)
+I (SDK\components\drivers_nrf\timer\nrf_drv_timer.h)(0x572D17F6)
+I (.\SDK\components\libraries\util\nordic_common.h)(0x572D17F8)
+I (.\SDK\config\nrf_drv_config.h)(0x57AB5897)
+I (.\SDK\components\drivers_nrf\config\nrf_drv_config_validation.h)(0x572D17F4)
+I (.\SDK\components\drivers_nrf\hal\nrf_timer.h)(0x572D17F5)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55DBD43E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DBD436)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DBD440)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\system_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_bitfields.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf51_to_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_name_change.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\compiler_abstraction.h)(0x5708FF4E)
+I (.\SDK\components\libraries\util\nrf_assert.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\app_error.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DBD436)
+I (.\SDK\components\libraries\util\sdk_errors.h)(0x572D17F8)
+I (.\SDK\components\softdevice\s132\headers\nrf_error.h)(0x572D1800)
+I (.\SDK\components\libraries\util\nrf_log.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55DBD43E)
+I (.\SDK\components\libraries\util\app_util.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\app_error_weak.h)(0x572D17F8)
+I (.\SDK\components\drivers_nrf\common\nrf_drv_common.h)(0x572D17F4)
+I (.\SDK\components\libraries\util\app_util_platform.h)(0x572D17F8)
+I (.\SDK\components\softdevice\s132\headers\nrf_soc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_svc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_error_soc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_nvic.h)(0x572D1800)
+F (.\SDK\components\drivers_nrf\hal\nrf_saadc.c)(0x572D17F4)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\SDK\components\softdevice\common\softdevice_handler -I .\SDK\components\softdevice\s132\headers -I .\SDK\components\softdevice\s132\headers\nrf52 -I .\SDK\components\toolchain -I .\SDK\bsp -I .\SDK\external\segger_rtt -I .\SDK\config -I .\SDK\components\ble\common -I .\SDK\components\drivers_nrf\common -I .\SDK\components\drivers_nrf\config -I .\SDK\components\drivers_nrf\delay -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\hal -I .\SDK\components\drivers_nrf\uart -I .\SDK\components\libraries\button -I .\SDK\components\libraries\timer -I .\SDK\components\libraries\uart -I .\SDK\components\libraries\util -I .\SDK\components\drivers_nrf\twi_master -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\ppi -I .\SDK\components\drivers_nrf\timer -I "..\Wibeacon - ADC" -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\clock -I .\SDK\components\ble\ble_services\ble_bas -I .\SDK\components\ble\ble_services\ble_dis -I .\SDK\components\ble\ble_services\ble_hts -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\pstorage -I "..\Wibeacon - RECOVERY"-I "C:\Users\Olivier\Desktop\Wibeacon - RECOVERY\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DNRF52 -DCONFIG_GPIO_AS_PINRESET -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0-o .\objects\nrf_saadc.o --omf_browse .\objects\nrf_saadc.crf --depend .\objects\nrf_saadc.d)
+I (SDK\components\drivers_nrf\hal\nrf_saadc.h)(0x572D17F5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DBD436)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55DBD43E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DBD440)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\system_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_bitfields.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf51_to_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_name_change.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\compiler_abstraction.h)(0x5708FF4E)
+I (.\SDK\components\libraries\util\nrf_assert.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\app_error.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DBD436)
+I (.\SDK\components\libraries\util\sdk_errors.h)(0x572D17F8)
+I (.\SDK\components\softdevice\s132\headers\nrf_error.h)(0x572D1800)
+I (.\SDK\components\libraries\util\nordic_common.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\nrf_log.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55DBD43E)
+I (.\SDK\components\libraries\util\app_util.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\app_error_weak.h)(0x572D17F8)
+F (.\SDK\components\drivers_nrf\pstorage\pstorage.c)(0x572D17F5)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\SDK\components\softdevice\common\softdevice_handler -I .\SDK\components\softdevice\s132\headers -I .\SDK\components\softdevice\s132\headers\nrf52 -I .\SDK\components\toolchain -I .\SDK\bsp -I .\SDK\external\segger_rtt -I .\SDK\config -I .\SDK\components\ble\common -I .\SDK\components\drivers_nrf\common -I .\SDK\components\drivers_nrf\config -I .\SDK\components\drivers_nrf\delay -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\hal -I .\SDK\components\drivers_nrf\uart -I .\SDK\components\libraries\button -I .\SDK\components\libraries\timer -I .\SDK\components\libraries\uart -I .\SDK\components\libraries\util -I .\SDK\components\drivers_nrf\twi_master -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\ppi -I .\SDK\components\drivers_nrf\timer -I "..\Wibeacon - ADC" -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\clock -I .\SDK\components\ble\ble_services\ble_bas -I .\SDK\components\ble\ble_services\ble_dis -I .\SDK\components\ble\ble_services\ble_hts -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\pstorage -I "..\Wibeacon - RECOVERY"-I "C:\Users\Olivier\Desktop\Wibeacon - RECOVERY\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DNRF52 -DCONFIG_GPIO_AS_PINRESET -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0-o .\objects\pstorage.o --omf_browse .\objects\pstorage.crf --depend .\objects\pstorage.d)
+I (SDK\components\drivers_nrf\pstorage\pstorage.h)(0x572D17F5)
+I (.\SDK\config\pstorage_platform.h)(0x572D181F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DBD440)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\system_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_bitfields.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf51_to_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_name_change.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\compiler_abstraction.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55DBD438)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DBD438)
+I (.\SDK\components\libraries\util\nordic_common.h)(0x572D17F8)
+I (.\SDK\components\softdevice\s132\headers\nrf_error.h)(0x572D1800)
+I (.\SDK\components\libraries\util\nrf_assert.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\app_error.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DBD436)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DBD436)
+I (.\SDK\components\libraries\util\sdk_errors.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\nrf_log.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55DBD43E)
+I (.\SDK\components\libraries\util\app_util.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\app_error_weak.h)(0x572D17F8)
+I (.\SDK\components\softdevice\s132\headers\nrf_soc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_svc.h)(0x572D1800)
+I (.\SDK\components\softdevice\s132\headers\nrf_error_soc.h)(0x572D1800)
+F (.\bma2x2.c)(0x5787DF98)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\SDK\components\softdevice\common\softdevice_handler -I .\SDK\components\softdevice\s132\headers -I .\SDK\components\softdevice\s132\headers\nrf52 -I .\SDK\components\toolchain -I .\SDK\bsp -I .\SDK\external\segger_rtt -I .\SDK\config -I .\SDK\components\ble\common -I .\SDK\components\drivers_nrf\common -I .\SDK\components\drivers_nrf\config -I .\SDK\components\drivers_nrf\delay -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\hal -I .\SDK\components\drivers_nrf\uart -I .\SDK\components\libraries\button -I .\SDK\components\libraries\timer -I .\SDK\components\libraries\uart -I .\SDK\components\libraries\util -I .\SDK\components\drivers_nrf\twi_master -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\ppi -I .\SDK\components\drivers_nrf\timer -I "..\Wibeacon - ADC" -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\clock -I .\SDK\components\ble\ble_services\ble_bas -I .\SDK\components\ble\ble_services\ble_dis -I .\SDK\components\ble\ble_services\ble_hts -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\pstorage -I "..\Wibeacon - RECOVERY"-I "C:\Users\Olivier\Desktop\Wibeacon - RECOVERY\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DNRF52 -DCONFIG_GPIO_AS_PINRESET -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0-o .\objects\bma2x2.o --omf_browse .\objects\bma2x2.crf --depend .\objects\bma2x2.d)
+I (bma2x2.h)(0x5787DF98)
+F (.\SDK\bsp\bsp.c)(0x572D1841)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\SDK\components\softdevice\common\softdevice_handler -I .\SDK\components\softdevice\s132\headers -I .\SDK\components\softdevice\s132\headers\nrf52 -I .\SDK\components\toolchain -I .\SDK\bsp -I .\SDK\external\segger_rtt -I .\SDK\config -I .\SDK\components\ble\common -I .\SDK\components\drivers_nrf\common -I .\SDK\components\drivers_nrf\config -I .\SDK\components\drivers_nrf\delay -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\hal -I .\SDK\components\drivers_nrf\uart -I .\SDK\components\libraries\button -I .\SDK\components\libraries\timer -I .\SDK\components\libraries\uart -I .\SDK\components\libraries\util -I .\SDK\components\drivers_nrf\twi_master -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\ppi -I .\SDK\components\drivers_nrf\timer -I "..\Wibeacon - ADC" -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\clock -I .\SDK\components\ble\ble_services\ble_bas -I .\SDK\components\ble\ble_services\ble_dis -I .\SDK\components\ble\ble_services\ble_hts -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\pstorage -I "..\Wibeacon - RECOVERY"-I "C:\Users\Olivier\Desktop\Wibeacon - RECOVERY\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DNRF52 -DCONFIG_GPIO_AS_PINRESET -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0-o .\objects\bsp.o --omf_browse .\objects\bsp.crf --depend .\objects\bsp.d)
+I (SDK\bsp\bsp.h)(0x572D1841)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DBD440)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DBD436)
+I (SDK\bsp\boards.h)(0x57A8CE4A)
+I (.\SDK\components\drivers_nrf\hal\nrf_gpio.h)(0x572D17F4)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\system_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_bitfields.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf51_to_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_name_change.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\compiler_abstraction.h)(0x5708FF4E)
+I (SDK\bsp\pca10040.h)(0x57A8E35D)
+I (.\SDK\components\libraries\button\app_button.h)(0x572D17F6)
+I (.\SDK\components\libraries\util\app_error.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DBD436)
+I (.\SDK\components\libraries\util\sdk_errors.h)(0x572D17F8)
+I (.\SDK\components\softdevice\s132\headers\nrf_error.h)(0x572D1800)
+I (.\SDK\components\libraries\util\nordic_common.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\nrf_log.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55DBD43E)
+I (.\SDK\components\libraries\util\app_util.h)(0x572D17F8)
+I (.\SDK\components\libraries\util\app_error_weak.h)(0x572D17F8)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55DBD43E)
+I (.\SDK\components\libraries\timer\app_timer.h)(0x572D17F8)
+F (.\SDK\external\segger_rtt\RTT_Syscalls_KEIL.c)(0x572D186C)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\SDK\components\softdevice\common\softdevice_handler -I .\SDK\components\softdevice\s132\headers -I .\SDK\components\softdevice\s132\headers\nrf52 -I .\SDK\components\toolchain -I .\SDK\bsp -I .\SDK\external\segger_rtt -I .\SDK\config -I .\SDK\components\ble\common -I .\SDK\components\drivers_nrf\common -I .\SDK\components\drivers_nrf\config -I .\SDK\components\drivers_nrf\delay -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\hal -I .\SDK\components\drivers_nrf\uart -I .\SDK\components\libraries\button -I .\SDK\components\libraries\timer -I .\SDK\components\libraries\uart -I .\SDK\components\libraries\util -I .\SDK\components\drivers_nrf\twi_master -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\ppi -I .\SDK\components\drivers_nrf\timer -I "..\Wibeacon - ADC" -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\clock -I .\SDK\components\ble\ble_services\ble_bas -I .\SDK\components\ble\ble_services\ble_dis -I .\SDK\components\ble\ble_services\ble_hts -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\pstorage -I "..\Wibeacon - RECOVERY"-I "C:\Users\Olivier\Desktop\Wibeacon - RECOVERY\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DNRF52 -DCONFIG_GPIO_AS_PINRESET -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0-o .\objects\rtt_syscalls_keil.o --omf_browse .\objects\rtt_syscalls_keil.crf --depend .\objects\rtt_syscalls_keil.d)
+F (.\SDK\external\segger_rtt\SEGGER_RTT.c)(0x572D186C)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\SDK\components\softdevice\common\softdevice_handler -I .\SDK\components\softdevice\s132\headers -I .\SDK\components\softdevice\s132\headers\nrf52 -I .\SDK\components\toolchain -I .\SDK\bsp -I .\SDK\external\segger_rtt -I .\SDK\config -I .\SDK\components\ble\common -I .\SDK\components\drivers_nrf\common -I .\SDK\components\drivers_nrf\config -I .\SDK\components\drivers_nrf\delay -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\hal -I .\SDK\components\drivers_nrf\uart -I .\SDK\components\libraries\button -I .\SDK\components\libraries\timer -I .\SDK\components\libraries\uart -I .\SDK\components\libraries\util -I .\SDK\components\drivers_nrf\twi_master -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\ppi -I .\SDK\components\drivers_nrf\timer -I "..\Wibeacon - ADC" -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\clock -I .\SDK\components\ble\ble_services\ble_bas -I .\SDK\components\ble\ble_services\ble_dis -I .\SDK\components\ble\ble_services\ble_hts -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\pstorage -I "..\Wibeacon - RECOVERY"-I "C:\Users\Olivier\Desktop\Wibeacon - RECOVERY\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DNRF52 -DCONFIG_GPIO_AS_PINRESET -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0-o .\objects\segger_rtt.o --omf_browse .\objects\segger_rtt.crf --depend .\objects\segger_rtt.d)
+I (SDK\external\segger_rtt\SEGGER_RTT.h)(0x572D186C)
+I (SDK\external\segger_rtt\SEGGER_RTT_Conf.h)(0x572D186C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55DBD438)
+F (.\SDK\external\segger_rtt\SEGGER_RTT_printf.c)(0x572D186C)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\SDK\components\softdevice\common\softdevice_handler -I .\SDK\components\softdevice\s132\headers -I .\SDK\components\softdevice\s132\headers\nrf52 -I .\SDK\components\toolchain -I .\SDK\bsp -I .\SDK\external\segger_rtt -I .\SDK\config -I .\SDK\components\ble\common -I .\SDK\components\drivers_nrf\common -I .\SDK\components\drivers_nrf\config -I .\SDK\components\drivers_nrf\delay -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\hal -I .\SDK\components\drivers_nrf\uart -I .\SDK\components\libraries\button -I .\SDK\components\libraries\timer -I .\SDK\components\libraries\uart -I .\SDK\components\libraries\util -I .\SDK\components\drivers_nrf\twi_master -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\ppi -I .\SDK\components\drivers_nrf\timer -I "..\Wibeacon - ADC" -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\clock -I .\SDK\components\ble\ble_services\ble_bas -I .\SDK\components\ble\ble_services\ble_dis -I .\SDK\components\ble\ble_services\ble_hts -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\pstorage -I "..\Wibeacon - RECOVERY"-I "C:\Users\Olivier\Desktop\Wibeacon - RECOVERY\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DNRF52 -DCONFIG_GPIO_AS_PINRESET -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0-o .\objects\segger_rtt_printf.o --omf_browse .\objects\segger_rtt_printf.crf --depend .\objects\segger_rtt_printf.d)
+F (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Lib\ARM\arm_cortexM4lf_math.lib)(0x5628E830)()
+F (RTE\Device\nRF52832_xxAA\arm_startup_nrf52.s)(0x5708FF4E)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Users\Olivier\Desktop\Wibeacon - RECOVERY\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include--pd "__UVISION_VERSION SETA 518" --pd "_RTE_ SETA 1" --pd "NRF52 SETA 1"--list .\listings\arm_startup_nrf52.lst --xref -o .\objects\arm_startup_nrf52.o --depend .\objects\arm_startup_nrf52.d)
+F (RTE\Device\nRF52832_xxAA\system_nrf52.c)(0x5708FF4E)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\SDK\components\softdevice\common\softdevice_handler -I .\SDK\components\softdevice\s132\headers -I .\SDK\components\softdevice\s132\headers\nrf52 -I .\SDK\components\toolchain -I .\SDK\bsp -I .\SDK\external\segger_rtt -I .\SDK\config -I .\SDK\components\ble\common -I .\SDK\components\drivers_nrf\common -I .\SDK\components\drivers_nrf\config -I .\SDK\components\drivers_nrf\delay -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\hal -I .\SDK\components\drivers_nrf\uart -I .\SDK\components\libraries\button -I .\SDK\components\libraries\timer -I .\SDK\components\libraries\uart -I .\SDK\components\libraries\util -I .\SDK\components\drivers_nrf\twi_master -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\ppi -I .\SDK\components\drivers_nrf\timer -I "..\Wibeacon - ADC" -I .\SDK\components\drivers_nrf\saadc -I .\SDK\components\drivers_nrf\clock -I .\SDK\components\ble\ble_services\ble_bas -I .\SDK\components\ble\ble_services\ble_dis -I .\SDK\components\ble\ble_services\ble_hts -I .\SDK\components\drivers_nrf\gpiote -I .\SDK\components\drivers_nrf\pstorage -I "..\Wibeacon - RECOVERY"-I "C:\Users\Olivier\Desktop\Wibeacon - RECOVERY\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include-D__UVISION_VERSION="518" -D_RTE_ -DNRF52 -DCONFIG_GPIO_AS_PINRESET -DBLE_STACK_SUPPORT_REQD -DBOARD_PCA10040 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_20 -DNRF52_PAN_30 -DNRF52_PAN_31 -DNRF52_PAN_36 -DNRF52_PAN_51 -DNRF52_PAN_53 -DNRF52_PAN_54 -DNRF52_PAN_55 -DNRF52_PAN_58 -DNRF52_PAN_62 -DNRF52_PAN_63 -DNRF52_PAN_64 -DS132 -DNRF_LOG_USES_UART="1" -DNRF52 -DSOFTDEVICE_PRESENT -DSWI_DISABLE0-o .\objects\system_nrf52.o --omf_browse .\objects\system_nrf52.crf --depend .\objects\system_nrf52.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DBD440)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DBD436)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x56265FCC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56264C10)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\system_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_bitfields.h)(0x5708FF4C)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf51_to_nrf52.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\nrf52_name_change.h)(0x5708FF4E)
+I (C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.6.0\Device\Include\compiler_abstraction.h)(0x5708FF4E)
+I (.\SDK\components\toolchain\system_nrf52.h)(0x572D1800)

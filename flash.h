@@ -1,0 +1,14 @@
+///////////////////////////////////////////////////////////////////////////////
+/// @file flash.h
+/// @author Olivier Tessier-Lariviere
+/// @date 2016-06-14
+/// @version 1.0
+///
+///
+///////////////////////////////////////////////////////////////////////////////
+
+#include <stdint.h>
+
+void flash_page_erase(uint32_t * page_address);
+
+void flash_word_write(uint32_t * address, uint32_t value);
